@@ -1,0 +1,40 @@
+.main {
+  background: linear-gradient(152.7deg, #4aa66d 1.69%, #048dae 97.43%);
+  width: 250px;
+  height: auto;
+  display: flex;
+  padding: 30px 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.input {
+  background: none;
+  width: 80%;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 10px;
+}
+.captcha {
+  background: none;
+  width: 80%;
+  color: white;
+  border: none;
+}
+
+.btn {
+  font-size: 15px;
+  background-color: white;
+  color: rgb(14, 123, 255);
+  height: 40px;
+  width: 150px;
+  border: none;
+  margin-top: 10px;
+}
+.box{
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: x-small;
+  align-items: center;
+}

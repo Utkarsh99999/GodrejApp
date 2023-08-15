@@ -1,0 +1,73 @@
+.main {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  margin: auto;
+  background: #353535;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0px;
+  justify-content: center;
+}
+.div1 {
+  width: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+.div2 {
+  width: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+}
+.div3 {
+  width: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  gap: 10px;
+  padding: 5px 0px;
+}
+.span1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55%;
+}
+.span2 {
+  display: flex;
+  align-items: center;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+.input {
+  border: 1px solid white;
+  width: 86%;
+  height: 20%;
+  background-color: #353535;
+  padding: 20px 10px;
+}
+input {
+  border: 1px solid white;
+  width: 26.5%;
+  background-color: #353535;
+  padding: 10px 10px;
+}
+.btn {
+  background-color: white;
+  color: rgb(65, 110, 255);
+  padding: 10px 30px;
+  border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
